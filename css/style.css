@@ -1347,3 +1347,56 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+/* NEW CSS */
+
+/* Dropdown Menu bar */
+
+
+/* Dropdown Button */
+
+.dropdown .dropdown-content {
+  -webkit-transition: width 0.3s; /* Safari */
+  transition: visibility 0s linear 0.3s, width 0.3s;
+
+
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    background-color: #3c4650;
+    color:white;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width:0px;
+    overflow: hidden;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #4AE3B5;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    width:100%;
+    transition-delay:0s;
+
+}
