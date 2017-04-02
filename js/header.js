@@ -4,11 +4,11 @@
 
 var element = document.getElementById("navbar-list");
 
-var links =  ["Services", "Products", "Features", "Testimonials", "Cootie Genetics!"]
-var href =  ["index.html#Services", "index.html#Products", "index.html#Features", "index.html#Testimonials", "cooties.html" ]
+var links =  ["Home", "About Us", "Services", "Products", "Contact Us"]
+var href =  ["index.html", "aboutus.html", "services.html", "productpage.html", "contactus.html" ]
 
-var links2 =  [[],    [],      [],           [],     ["Game", "Screenshots"],  ]
-var href2 =  [[],    [],      [],           [],     ["cooties.html#", "cooties.html#Screenshots"],  ]
+var links2 =  [[],    [],  [], ["Cootie Genetics!", "Tap.Dot", "Tap.Dot 2"],      [],    ]
+var href2 =   [[],    [], [], ["cootiegenetics.html", "tapdot.html", "tapdot2.html"],      [],   ]
 
 var str = "";
 
