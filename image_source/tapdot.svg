@@ -97,14 +97,20 @@
        id="path4238"
        cx="475.27676"
        cy="402.32901"
-       r="20.708126" />
+       r="20.708126"
+       inkscape:export-filename="C:\Users\Michael\Documents\GitHub\FPSyndicate.github.io\images\tapdot_logo.png"
+       inkscape:export-xdpi="103.7"
+       inkscape:export-ydpi="103.7" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:96.1072998px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4226)"
        x="107.41303"
        y="474.26578"
        id="text4138"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Michael\Documents\GitHub\FPSyndicate.github.io\images\tapdot_logo.png"
+       inkscape:export-xdpi="103.7"
+       inkscape:export-ydpi="103.7"><tspan
          sodipodi:role="line"
          id="tspan4140"
          x="107.41303"
@@ -114,11 +120,17 @@
        style="opacity:1;fill:#b12826;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 475.277,370.00403 a 32.32472,32.32472 0 0 0 -32.32536,32.32536 32.32472,32.32472 0 0 0 32.32536,32.32536 32.32472,32.32472 0 0 0 32.32536,-32.32536 32.32472,32.32472 0 0 0 -32.32536,-32.32536 z m 0,4.71351 a 27.610698,27.610698 0 0 1 27.60924,27.61185 27.610698,27.610698 0 0 1 -27.60924,27.60924 27.610698,27.610698 0 0 1 -27.61184,-27.60924 27.610698,27.610698 0 0 1 27.61184,-27.61185 z"
        id="circle4247"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michael\Documents\GitHub\FPSyndicate.github.io\images\tapdot_logo.png"
+       inkscape:export-xdpi="103.7"
+       inkscape:export-ydpi="103.7" />
     <path
        inkscape:connector-curvature="0"
        id="path4250"
        d="m 475.277,365.45834 a 36.870316,36.870316 0 0 0 -36.87105,36.87105 36.870316,36.870316 0 0 0 36.87105,36.87105 36.870316,36.870316 0 0 0 36.87105,-36.87105 36.870316,36.870316 0 0 0 -36.87105,-36.87105 z m 0,5.37634 a 31.493395,31.493395 0 0 1 31.49173,31.49471 31.493395,31.493395 0 0 1 -31.49173,31.49173 31.493395,31.493395 0 0 1 -31.4947,-31.49173 31.493395,31.493395 0 0 1 31.4947,-31.49471 z"
-       style="opacity:1;fill:#e6292b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+       style="opacity:1;fill:#e6292b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\Michael\Documents\GitHub\FPSyndicate.github.io\images\tapdot_logo.png"
+       inkscape:export-xdpi="103.7"
+       inkscape:export-ydpi="103.7" />
   </g>
 </svg>
