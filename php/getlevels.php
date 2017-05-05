@@ -1,6 +1,6 @@
 <?php
     // Send variables for the MySQL database class.
-    $database = mysql_connect('mysql8.000webhost.com', 'a4491895_tapdot', 'futch2413') or die('Could not connect: ' . mysql_error());
+    $database = mysql_connect('mysql8.000webhost.com', 'a4491895_tapdot', 'tapdotsecretpassword') or die('Could not connect: ' . mysql_error());
     mysql_select_db('a4491895_tapdot') or die('Could not select database');
  
     $query = "SELECT * FROM `CommunityLevels` LIMIT 0, 30";
