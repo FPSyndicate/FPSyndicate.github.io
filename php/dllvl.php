@@ -19,7 +19,7 @@
     $num_results = mysqli_num_rows($result);  
     $row = mysqli_fetch_assoc($result);
     foreach($row as $field) {
-	 echo $field;
+     echo $field;
     }
 
 

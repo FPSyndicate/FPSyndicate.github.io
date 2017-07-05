@@ -1,7 +1,7 @@
 <?php
-	
+    
 
-	$type = $_GET['type'];
+    $type = $_GET['type'];
     $index = $_GET['index'];
     $pw = $_GET['pw'];
 
@@ -22,10 +22,10 @@
     mysqli_query($db, $query) or die('Query failed: ' . mysqli_error($db));
 
     if ($type == 'upvote'){
-    	echo "upvote";
-	}
-	elseif ($type == 'downvote'){
-		echo "downvote";
-	}
+        echo "upvote";
+    }
+    elseif ($type == 'downvote'){
+        echo "downvote";
+    }
 
 ?>

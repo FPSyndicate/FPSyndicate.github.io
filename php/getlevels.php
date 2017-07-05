@@ -1,5 +1,5 @@
 <?php
-	
+    
 
     $type = $_GET['type'];
     $index = $_GET['index'];
@@ -30,10 +30,10 @@
     elseif ($type == 'downloads')
         $query = "SELECT DISTINCT LevelIndex, LevelName, LevelDescription, Points, LevelAuthor, Downloads FROM `CommunityLevels` ORDER BY Downloads DESC LIMIT $offset, $num_rows";
     elseif ($type == 'getleveldata'){
-    	$query = "UPDATE `CommunityLevels` SET `Downloads` = `Downloads` + 1 WHERE `LevelIndex` = $index;";
+        $query = "UPDATE `CommunityLevels` SET `Downloads` = `Downloads` + 1 WHERE `LevelIndex` = $index;";
     
-    		mysqli_query($db, $query) or die('Query failed: ' . mysqli_error($db));
-		$query = "SELECT DISTINCT `LevelData` FROM `CommunityLevels` WHERE `LevelIndex` = $index;";
+            mysqli_query($db, $query) or die('Query failed: ' . mysqli_error($db));
+        $query = "SELECT DISTINCT `LevelData` FROM `CommunityLevels` WHERE `LevelIndex` = $index;";
     }
 
 
@@ -41,29 +41,29 @@
 
     $result = mysqli_query($db, $query) or die('Query failed: ' . mysqli_error($db));
 
- 	
+    
 
     $num_results = mysqli_num_rows($result);  
 
  
     if($num_results > 1){
-	    for($i = 0; $i < $num_results; $i++)
+        for($i = 0; $i < $num_results; $i++)
 
-	    {
+        {
 
-	         $row = mysqli_fetch_assoc($result);
-	         foreach($row as $field) {
-	             echo $field . "|";
-	         }
-	         echo "\n";
+             $row = mysqli_fetch_assoc($result);
+             foreach($row as $field) {
+                 echo $field . "|";
+             }
+             echo "\n";
 
-	    }
-	}
+        }
+    }
 else{
 $row = mysqli_fetch_assoc($result);
-	         foreach($row as $field) {
-	             echo $field;
-	         }
+             foreach($row as $field) {
+                 echo $field;
+             }
 }
 
 ?>
